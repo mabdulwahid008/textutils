@@ -48,8 +48,7 @@ function App() {
             <div className="container my-2">
             <Alert alert={alert}/>
               <Routes>
-                    <Route path="/about" element={<About mode={mode}/>}/>
-                    <Route path="/" element={<TextForm heading1="Enter Text to Analyze" heading2="Your Analyzed Text" mode={mode}/>}/>
+                    <Route path="/about" element={<About mode={mode}/>}/><Route path="/" element={<TextForm heading1="Enter Text to Analyze" heading2="Your Analyzed Text" mode={mode}/>}/>
                     <Route path="/textutils" element={<TextForm heading1="Enter Text to Analyze" heading2="Your Analyzed Text" mode={mode}/>}/>
               </Routes>
             </div>  
