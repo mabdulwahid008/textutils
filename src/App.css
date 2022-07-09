@@ -1,0 +1,23 @@
+body{
+  background-color: #e8dbff;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Fairplay Display';
+  font-weight: 700;
+}
+p{
+  font-family: 'Montaga';
+}
+btn-primary{
+  font-family: 'Montaga';
+  font-weight: 500;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
